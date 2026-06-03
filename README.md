@@ -37,7 +37,7 @@ An **Angular** library providing an authentication page.
 
 ## Demo
 
-You can find a demo of the package in the [demo](https://github.com/angular-x/auth/tree/main/demo) folder.
+You can find a demo of the package in the [demo](https://github.com/angular-x/auth/tree/main/demo) folder, and the live demo is available at [https://auth-bysk.onrender.com](https://auth-bysk.onrender.com).
 
 ## Installation
 
