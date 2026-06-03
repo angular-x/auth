@@ -21,6 +21,12 @@ An **Angular** library providing an authentication page.
 - [Api](#api)
   - Component
     - [`Auth`](#auth)
+  - Service
+    - [`AuthService`](#authservice)
+  - Interface
+    - [`AuthFooterLink`](#authfooterlink)
+  - Type
+    - [`AuthTheme`](#auththeme)
 - [Contributing](#contributing)
 - [Support](#support)
 - [Code of Conduct](#code-of-conduct)
@@ -45,6 +51,12 @@ npm install @angular.x/auth --save-peer
 import {
   // Component.
   Auth,
+  // Service.
+  AuthService,
+  // Interface.
+  AuthFooterLink,
+  // Type.
+  AuthTheme
 } from '@angular.x/auth';
 ```
 
@@ -54,6 +66,30 @@ import {
 
 ```typescript
 import { Auth } from '@angular.x/auth';
+```
+
+### Service
+
+### `AuthService`
+
+```typescript
+import { AuthService } from '@angular.x/auth';
+```
+
+### Interface
+
+### `AuthFooterLink`
+
+```typescript
+import { AuthFooterLink } from '@angular.x/auth';
+```
+
+### Type
+
+### `AuthTheme`
+
+```typescript
+import { AuthTheme } from '@angular.x/auth';
 ```
 
 ## Contributing
@@ -125,21 +161,21 @@ MIT © angular.x ([license][package-license])
 
 <!-- This package: angular.x  -->
   <!-- GitHub: badges -->
-  [package-badge-issues]: https://img.shields.io/github/issues/angular-x/layout
-  [package-badge-forks]: https://img.shields.io/github/forks/angular-x/layout
-  [package-badge-stars]: https://img.shields.io/github/stars/angular-x/layout
-  [package-badge-license]: https://img.shields.io/github/license/angular-x/layout
+  [package-badge-issues]: https://img.shields.io/github/issues/angular-x/auth
+  [package-badge-forks]: https://img.shields.io/github/forks/angular-x/auth
+  [package-badge-stars]: https://img.shields.io/github/stars/angular-x/auth
+  [package-badge-license]: https://img.shields.io/github/license/angular-x/auth
   <!-- GitHub: badges links -->
-  [package-issues]: https://github.com/angular-x/layout/issues
-  [package-forks]: https://github.com/angular-x/layout/network
-  [package-license]: https://github.com/angular-x/layout/blob/master/LICENSE
-  [package-stars]: https://github.com/angular-x/layout/stargazers
+  [package-issues]: https://github.com/angular-x/auth/issues
+  [package-forks]: https://github.com/angular-x/auth/network
+  [package-license]: https://github.com/angular-x/auth/blob/master/LICENSE
+  [package-stars]: https://github.com/angular-x/auth/stargazers
 <!-- This package -->
 
 <!-- Package: angular.x -->
   <!-- npm -->
-  [package-npm-badge-svg]: https://badge.fury.io/js/@angular.x%2Flayout.svg
-  [package-npm-badge]: https://badge.fury.io/js/@angular.x%2Flayout
+  [package-npm-badge-svg]: https://badge.fury.io/js/@angular.x%2Fauth.svg
+  [package-npm-badge]: https://badge.fury.io/js/@angular.x%2Fauth
 
 <!-- GIT -->
 [git-semver]: http://semver.org/
