@@ -1,5 +1,5 @@
 {
-  "name": "auth",
+  "name": "@angular.x/auth",
   "version": "1.0.0",
   "author": "wwwdev.io <dev@wwwdev.io>",
   "description": "An Angular library providing an authentication page.",
