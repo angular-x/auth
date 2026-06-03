@@ -1,0 +1,17 @@
+<!-- Main -->
+<main><router-outlet></router-outlet></main>
+
+<!-- Footer -->
+@if (showFooter) {
+  <footer>
+    <span>{{ copyrightText }}</span>
+    <div>
+      @for (link of footerLinks; track link.routerLink; let last = $last) {
+        <a [routerLink]="link.routerLink">{{ link.label }}</a>
+        @if (!last) {
+          <span>&middot;</span>
+        }
+      }
+    </div>
+  </footer>
+}
