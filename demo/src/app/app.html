@@ -1,0 +1,10 @@
+<div class="demo">
+  <div class="demo-toolbar">
+    <button type="button" (click)="setTheme('gold')">Gold</button>
+    <button type="button" (click)="setTheme('silver')">Silver</button>
+    <button type="button" (click)="setTheme('violet')">Violet</button>
+    <button type="button" (click)="setTheme('white')">White</button>
+  </div>
+
+  <ax-auth [theme]="theme()"></ax-auth>
+</div>
